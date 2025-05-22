@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Запись на танцы | Dance Me</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav nav">
+            <a href="index.html" class="nav__logo">Танцевальная студия Dance Me</a>
+            <nav class="nav__pages">
+                <a class="nav__page" href="index.html">Главная</a>
+                <a class="nav__page" href="reviews.html">Отзывы</a>
+                <a class="nav__page" href="signup.html">Запись на танцы</a>
+            </nav>
+            <div class="nav__socials">
+                <a class="nav__social" href="https://vk.com"><img src="images/vk.png" alt="VK" /></a>
+                <a class="nav__social" href="#"><img src="images/inst.png" alt="Instagram" /></a>
+                <a class="nav__social" href="https://web.telegram.org/z/"><img src="images/telegram.png"
+                        alt="Telegram" /></a>
+            </div>
+        </nav>
+    </header>
+
+  <main class="signup">
+    <h1 class="signup__title section-title">Записаться на занятия</h1>
+    <p class="signup__description">Заполните форму ниже, чтобы записаться на первое бесплатное занятие. Мы свяжемся с вами в течение суток!</p>
+    <form class="signup__form">
+      <label class="signup__label">Имя:
+        <input type="text" class="signup__input" placeholder="Введите ваше имя" required>
+      </label>
+      <label class="signup__label">Email:
+        <input type="email" class="signup__input" placeholder="you@example.com" required>
+      </label>
+      <label class="signup__label">Выберите стиль:
+        <select class="signup__select">
+          <option>Hip-Hop</option>
+          <option>Парный Hip-Hop</option>
+          <option>Contemporary</option>
+          <option>Breakdance</option>
+          <option>Jazz Funk</option>
+          <option>Dancehall</option>
+        </select>
+      </label>
+      <button type="submit" class="signup__btn">Отправить</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <nav class="footer__nav">
+      <a href="index.html" class="footer__link">Главная</a>
+      <a href="reviews.html" class="footer__link">Отзывы</a>
+    </nav>
+  </footer>
+</body>
+</html>
